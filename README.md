@@ -4,8 +4,8 @@ The PathFinder Driver Generator (PDG) is a tool that supports PathFinder, the co
 
 You may also be interested in:
 
-- [PathFinder](../pathfinder/README.md), the fuzzing tool that implements the technique presented in the paper.
-- [PathFinder-artifact](../README.md), the artifact for the paper. It provides concrete examples of setting up and running PathFinder for testing DL libraries (PyTorch and TensorFlow).
+- [PathFinder](https://github.com/starlab-unist/pathfinder), the fuzzing tool that implements the technique presented in the paper.
+- [PathFinder-artifact](https://github.com/starlab-unist/pathfinder-artifact), the artifact for the paper. It provides concrete examples of setting up and running PathFinder for testing DL libraries (PyTorch and TensorFlow).
 
     > **NOTE**
     >
@@ -49,7 +49,7 @@ Following instructions are based on an Ubuntu 22.04 environment.
 
 > **NOTE**
 >
-> PDG interacts with PathFinder-artifact by generating test drivers and PoVs (proof of vulnerabilities) dynamically. For more advanced usage examples, please refer to the [scripts](../expmanager.py) and [Dockerfiles](../docker) in PathFinder-artifact.
+> PDG interacts with PathFinder-artifact by generating test drivers and PoVs (proof of vulnerabilities) dynamically. For more advanced usage examples, please refer to the [scripts](https://github.com/starlab-unist/pathfinder-artifact/expmanager.py) and [Dockerfiles](https://github.com/starlab-unist/pathfinder-artifact/docker) in PathFinder-artifact.
 
 This section introduces a basic command for generating test driver codes.
 
