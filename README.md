@@ -49,7 +49,7 @@ Following instructions are based on an Ubuntu 22.04 environment.
 
 > **NOTE**
 >
-> PDG interacts with PathFinder-artifact by generating test drivers and PoVs (proof of vulnerabilities) dynamically. For more advanced usage examples, please refer to the [scripts](https://github.com/starlab-unist/pathfinder-artifact/expmanager.py) and [Dockerfiles](https://github.com/starlab-unist/pathfinder-artifact/docker) in PathFinder-artifact.
+> PDG interacts with PathFinder-artifact by generating test drivers and PoVs (proof of vulnerabilities) dynamically. For more advanced usage examples, please refer to the [scripts](https://github.com/starlab-unist/pathfinder-artifact/blob/main/expmanager.py) and [Dockerfiles](https://github.com/starlab-unist/pathfinder-artifact/tree/main/docker) in PathFinder-artifact.
 
 This section introduces a basic command for generating test driver codes.
 
