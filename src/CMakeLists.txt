@@ -1,0 +1,23 @@
+add_executable(pdg
+  api.cpp
+  main.cpp
+  options.cpp
+  symarg.cpp
+  tf_api.cpp
+  tf_cpp_apis.cpp
+  tf_datatype.cpp
+  tf_gen.cpp
+  tf_generator.cpp
+  tf_opdef.cpp
+  tf_symarg.cpp
+  torch_api.cpp
+  torch_gen.cpp
+  torch_generator.cpp
+  torch_symarg.cpp
+  utils.cpp
+  writer.cpp
+)
+target_link_libraries(pdg
+  PRIVATE
+  nlohmann_json::nlohmann_json
+)

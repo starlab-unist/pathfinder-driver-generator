@@ -1,0 +1,11 @@
+#ifndef PATHFINDER_DRIVER_GENERATOR_TF_GEN
+#define PATHFINDER_DRIVER_GENERATOR_TF_GEN
+
+#include <filesystem>
+#include <vector>
+namespace fs = std::filesystem;
+
+void gen_tf_drivers(const fs::path& output_dir);
+void gen_tf_pov(const fs::path& buggy_input_dir, const fs::path& output_dir);
+
+#endif
